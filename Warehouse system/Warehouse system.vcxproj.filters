@@ -27,6 +27,12 @@
     <ClInclude Include="Inventory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="WorkActivity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkActivities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Box.cpp">
@@ -38,7 +44,17 @@
     <ClCompile Include="Goods.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="Inventory.cpp">
+=======
+    <ClCompile Include="WorkActivity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkActivities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testWorkActivity.cpp">
+>>>>>>> ec64dac4f246b430671c00b037a0651ffa113bfc
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
