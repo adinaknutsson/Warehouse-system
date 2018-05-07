@@ -8,15 +8,17 @@ private:
 	Goods** goods;
 	int nrOfStoredItems;
 	int capaciy;
+	static const int maxCapacity = 10;
+	void expand();
 
 public:
 	Inventory();
 	~Inventory();
 
-	void SelectGoods();
+
 	bool checkQuantity(int ID, int Qty);
 	void reduceQty(int ID, int Qty);
-	void addNewGoods(); 
+	void addNewGoods();
 	bool EditProduct(int ID);
 
 };
