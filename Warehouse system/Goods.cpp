@@ -69,3 +69,8 @@ bool Goods::setBoxSize(int typeBox, Boxes boxes)
 	
 	return retVal;
 }
+
+int Goods::getidNumber() const
+{
+	return this->idNumber;
+}

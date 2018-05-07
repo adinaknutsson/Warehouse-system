@@ -124,6 +124,7 @@
     <ClCompile Include="Box.cpp" />
     <ClCompile Include="Boxes.cpp" />
     <ClCompile Include="Goods.cpp" />
+    <ClCompile Include="Inventory.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

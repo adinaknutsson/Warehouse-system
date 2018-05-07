@@ -22,4 +22,6 @@ public:
 	void setName(std::string Name);
 	bool setWeight(int weight);
 	bool setBoxSize(int typeBox, Boxes boxes);
+
+	int getidNumber() const;
 };
